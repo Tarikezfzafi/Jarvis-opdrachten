@@ -1,0 +1,18 @@
+div.tooltip {
+    position: relative;
+}
+
+div.icon {
+    position: absolute;
+    top: 0%;
+    left: 100%;
+}
+
+div.tooltip-content {
+    color: grey;
+}
+
+div.icon:hover + div.tooltip-content {
+    color: white;
+    background-color: black;
+}
